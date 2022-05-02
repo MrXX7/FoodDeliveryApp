@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		AD6F8435281EFA1800832B5A /* FoodDeliveryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8434281EFA1800832B5A /* FoodDeliveryAppApp.swift */; };
-		AD6F8437281EFA1800832B5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8436281EFA1800832B5A /* ContentView.swift */; };
+		AD6F8437281EFA1800832B5A /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8436281EFA1800832B5A /* FoodList.swift */; };
 		AD6F8439281EFA1A00832B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F8438281EFA1A00832B5A /* Assets.xcassets */; };
 		AD6F843C281EFA1A00832B5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F843B281EFA1A00832B5A /* Preview Assets.xcassets */; };
+		ADFA0D5128206894000C5A49 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = ADFA0D5028206894000C5A49 /* menu.json */; };
+		ADFA0D5428206932000C5A49 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA0D5328206932000C5A49 /* FoodItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD6F8431281EFA1800832B5A /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6F8434281EFA1800832B5A /* FoodDeliveryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppApp.swift; sourceTree = "<group>"; };
-		AD6F8436281EFA1800832B5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD6F8436281EFA1800832B5A /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
 		AD6F8438281EFA1A00832B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6F843B281EFA1A00832B5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADFA0D5028206894000C5A49 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		ADFA0D5328206932000C5A49 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,9 @@
 		AD6F8433281EFA1800832B5A /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				ADFA0D5228206915000C5A49 /* Views */,
+				ADFA0D4F28206880000C5A49 /* Content */,
 				AD6F8434281EFA1800832B5A /* FoodDeliveryAppApp.swift */,
-				AD6F8436281EFA1800832B5A /* ContentView.swift */,
 				AD6F8438281EFA1A00832B5A /* Assets.xcassets */,
 				AD6F843A281EFA1A00832B5A /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				AD6F843B281EFA1A00832B5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADFA0D4F28206880000C5A49 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA0D5028206894000C5A49 /* menu.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		ADFA0D5228206915000C5A49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F8436281EFA1800832B5A /* FoodList.swift */,
+				ADFA0D5328206932000C5A49 /* FoodItem.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFA0D5128206894000C5A49 /* menu.json in Resources */,
 				AD6F843C281EFA1A00832B5A /* Preview Assets.xcassets in Resources */,
 				AD6F8439281EFA1A00832B5A /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6F8437281EFA1800832B5A /* ContentView.swift in Sources */,
+				AD6F8437281EFA1800832B5A /* FoodList.swift in Sources */,
+				ADFA0D5428206932000C5A49 /* FoodItem.swift in Sources */,
 				AD6F8435281EFA1800832B5A /* FoodDeliveryAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
