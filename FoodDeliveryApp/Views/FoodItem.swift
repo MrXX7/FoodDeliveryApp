@@ -9,7 +9,25 @@ import SwiftUI
 
 struct FoodItem: View {
     var body: some View {
+        VStack (alignment: .leading) {
         Image("lasagna")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(height: 200)
+            .cornerRadius(10)
+            .shadow(radius: 5)
+            
+            VStack (alignment: .leading) {
+                Text("Lasagna")
+                    .font(.title)
+                .foregroundColor(.primary)
+                Text("Description")
+                    .lineLimit(2)
+            }
+        }
+        .frame(width: 300)
+        .padding(.leading, 10)
+        .padding(.trailing, 10)
     }
 }
 
