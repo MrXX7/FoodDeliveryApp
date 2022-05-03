@@ -9,15 +9,23 @@ import SwiftUI
 
 struct FoodRow: View {
     
-    var kitchenname: String
+    var kitchenName: String
     var foods: [Food]
+    
     var body: some View {
-        FoodItem(food: foods[0])
+        
+        ScrollView(.horizontal, showsIndicators: false){
+        HStack {
+        ForEach(self.foods, id: \.id) { food in
+        FoodItem(food: food)
+                }
+            }
+        }
     }
 }
 
 struct FoodRow_Previews: PreviewProvider {
     static var previews: some View {
-        FoodRow(kitchenname: "Italian", foods: Menu)
+        FoodRow(kitchenName: "Italian", foods: Menu)
     }
 }

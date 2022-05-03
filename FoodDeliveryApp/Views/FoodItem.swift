@@ -13,7 +13,7 @@ struct FoodItem: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Image(food.image)
+            Image(food.imageName)
             .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 200)
@@ -34,6 +34,6 @@ struct FoodItem: View {
 
 struct FoodView_Previews: PreviewProvider {
     static var previews: some View {
-        FoodItem(food: Menu[0])
+        FoodItem(food: Menu[1])
     }
 }

@@ -10,7 +10,7 @@ import SwiftUI
 struct Food: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
-    var image: String
+    var imageName: String
     var kitchen: String
     var description: String
     
