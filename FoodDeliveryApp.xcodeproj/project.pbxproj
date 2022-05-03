@@ -11,11 +11,23 @@
 		AD6F8437281EFA1800832B5A /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8436281EFA1800832B5A /* FoodList.swift */; };
 		AD6F8439281EFA1A00832B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F8438281EFA1A00832B5A /* Assets.xcassets */; };
 		AD6F843C281EFA1A00832B5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F843B281EFA1A00832B5A /* Preview Assets.xcassets */; };
+		ADABB725282117B00061FB78 /* FoodRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABB724282117B00061FB78 /* FoodRow.swift */; };
+		ADABB727282118AE0061FB78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABB726282118AE0061FB78 /* SceneDelegate.swift */; };
 		ADFA0D5128206894000C5A49 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = ADFA0D5028206894000C5A49 /* menu.json */; };
 		ADFA0D5428206932000C5A49 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA0D5328206932000C5A49 /* FoodItem.swift */; };
 		ADFA0D5728208A83000C5A49 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA0D5628208A83000C5A49 /* Food.swift */; };
 		ADFA0D5928208B4F000C5A49 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA0D5828208B4F000C5A49 /* Data.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADABB71F282113FC0061FB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD6F8429281EFA1800832B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD6F8430281EFA1800832B5A;
+			remoteInfo = FoodDeliveryApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AD6F8431281EFA1800832B5A /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +35,9 @@
 		AD6F8436281EFA1800832B5A /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
 		AD6F8438281EFA1A00832B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6F843B281EFA1A00832B5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADABB71B282113FC0061FB78 /* FoodDeliveryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADABB724282117B00061FB78 /* FoodRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRow.swift; sourceTree = "<group>"; };
+		ADABB726282118AE0061FB78 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADFA0D5028206894000C5A49 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		ADFA0D5328206932000C5A49 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 		ADFA0D5628208A83000C5A49 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
@@ -31,6 +46,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AD6F842E281EFA1800832B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABB718282113FC0061FB78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				AD6F8431281EFA1800832B5A /* FoodDeliveryApp.app */,
+				ADABB71B282113FC0061FB78 /* FoodDeliveryAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +86,7 @@
 				ADFA0D5228206915000C5A49 /* Views */,
 				ADFA0D4F28206880000C5A49 /* Content */,
 				AD6F8434281EFA1800832B5A /* FoodDeliveryAppApp.swift */,
+				ADABB726282118AE0061FB78 /* SceneDelegate.swift */,
 				AD6F8438281EFA1A00832B5A /* Assets.xcassets */,
 				AD6F843A281EFA1A00832B5A /* Preview Content */,
 			);
@@ -90,6 +114,7 @@
 			children = (
 				AD6F8436281EFA1800832B5A /* FoodList.swift */,
 				ADFA0D5328206932000C5A49 /* FoodItem.swift */,
+				ADABB724282117B00061FB78 /* FoodRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +148,24 @@
 			productReference = AD6F8431281EFA1800832B5A /* FoodDeliveryApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ADABB71A282113FC0061FB78 /* FoodDeliveryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADABB723282113FC0061FB78 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppTests" */;
+			buildPhases = (
+				ADABB717282113FC0061FB78 /* Sources */,
+				ADABB718282113FC0061FB78 /* Frameworks */,
+				ADABB719282113FC0061FB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADABB720282113FC0061FB78 /* PBXTargetDependency */,
+			);
+			name = FoodDeliveryAppTests;
+			productName = FoodDeliveryAppTests;
+			productReference = ADABB71B282113FC0061FB78 /* FoodDeliveryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -135,6 +178,10 @@
 				TargetAttributes = {
 					AD6F8430281EFA1800832B5A = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					ADABB71A282113FC0061FB78 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = AD6F8430281EFA1800832B5A;
 					};
 				};
 			};
@@ -152,6 +199,7 @@
 			projectRoot = "";
 			targets = (
 				AD6F8430281EFA1800832B5A /* FoodDeliveryApp */,
+				ADABB71A282113FC0061FB78 /* FoodDeliveryAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +215,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADABB719282113FC0061FB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -175,14 +230,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD6F8437281EFA1800832B5A /* FoodList.swift in Sources */,
+				ADABB727282118AE0061FB78 /* SceneDelegate.swift in Sources */,
 				ADFA0D5928208B4F000C5A49 /* Data.swift in Sources */,
 				ADFA0D5728208A83000C5A49 /* Food.swift in Sources */,
 				ADFA0D5428206932000C5A49 /* FoodItem.swift in Sources */,
+				ADABB725282117B00061FB78 /* FoodRow.swift in Sources */,
 				AD6F8435281EFA1800832B5A /* FoodDeliveryAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADABB717282113FC0061FB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADABB720282113FC0061FB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD6F8430281EFA1800832B5A /* FoodDeliveryApp */;
+			targetProxy = ADABB71F282113FC0061FB78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AD6F843D281EFA1A00832B5A /* Debug */ = {
@@ -357,6 +429,42 @@
 			};
 			name = Release;
 		};
+		ADABB721282113FC0061FB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW758S68BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxx7.FoodDeliveryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDeliveryApp.app/FoodDeliveryApp";
+			};
+			name = Debug;
+		};
+		ADABB722282113FC0061FB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW758S68BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxx7.FoodDeliveryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDeliveryApp.app/FoodDeliveryApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -374,6 +482,15 @@
 			buildConfigurations = (
 				AD6F8440281EFA1A00832B5A /* Debug */,
 				AD6F8441281EFA1A00832B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADABB723282113FC0061FB78 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABB721282113FC0061FB78 /* Debug */,
+				ADABB722282113FC0061FB78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
