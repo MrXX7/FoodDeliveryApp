@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD343D032821A5030081141B /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD343D022821A5030081141B /* FoodDetail.swift */; };
 		AD6F8435281EFA1800832B5A /* FoodDeliveryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8434281EFA1800832B5A /* FoodDeliveryAppApp.swift */; };
 		AD6F8437281EFA1800832B5A /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F8436281EFA1800832B5A /* FoodList.swift */; };
 		AD6F8439281EFA1A00832B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F8438281EFA1A00832B5A /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD343D022821A5030081141B /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
 		AD6F8431281EFA1800832B5A /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6F8434281EFA1800832B5A /* FoodDeliveryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppApp.swift; sourceTree = "<group>"; };
 		AD6F8436281EFA1800832B5A /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				AD6F8436281EFA1800832B5A /* FoodList.swift */,
 				ADFA0D5328206932000C5A49 /* FoodItem.swift */,
 				ADABB724282117B00061FB78 /* FoodRow.swift */,
+				AD343D022821A5030081141B /* FoodDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				ADFA0D5728208A83000C5A49 /* Food.swift in Sources */,
 				ADFA0D5428206932000C5A49 /* FoodItem.swift in Sources */,
 				ADABB725282117B00061FB78 /* FoodRow.swift in Sources */,
+				AD343D032821A5030081141B /* FoodDetail.swift in Sources */,
 				AD6F8435281EFA1800832B5A /* FoodDeliveryAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
