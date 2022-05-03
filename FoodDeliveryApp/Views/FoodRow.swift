@@ -17,7 +17,10 @@ struct FoodRow: View {
         ScrollView(.horizontal, showsIndicators: false){
         HStack {
         ForEach(self.foods, id: \.id) { food in
-        FoodItem(food: food)
+            
+            NavigationLink(destination: FoodDetail(food: food)){
+                FoodItem(food: food)
+            }.buttonStyle(PlainButtonStyle())
                 }
             }
         }
